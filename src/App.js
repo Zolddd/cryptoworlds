@@ -6,37 +6,40 @@ import { SiTether } from "react-icons/si";
 const plans = [
   {
     name: "Starter Pack",
-    price: "1000 original USDT",
+    price: "USDT",
     features: [
-      "5,000 Flash USDT",
       "BEP20 Network",
+      "Inr 86 per USDT",
+      "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "265 Days Validity",
+      "Lifetime Validity",
       "use for only trust wallet",
       "After payment send screenshot",
     ],
   },
   {
     name: "Pro Trader",
-    price: "2000 original USDT",
+    price: "USDT",
     popular: true,
     features: [
-      "12,000 Flash USDT",
-      "BEP20 Network",
+      "TRC20 Network",
+      "Inr 86 per USDT",
+      "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "265 Days Validity",
+      "Lifetime Validity",
       "use for only trust wallet",
       "After payment send screenshot",
     ],
   },
   {
     name: "Elite Enterprise",
-    price: "5000 original USDT",
+    price: "USDT",
     features: [
-      "35,000 Flash USDT",
-      "BEP20 Network",
+      "ERC20 Network",
+      "Inr 86 per USDT",
+      "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "265 Days Validity",
+      "Lifetime Validity",
       "use for only trust wallet",
       "After payment send screenshot",
     ],
@@ -158,7 +161,7 @@ function App() {
           transition={{ duration: 0.8 }}
           className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-6 leading-tight bg-gradient-to-r from-green-400 via-green-300 to-green-500 text-transparent bg-clip-text"
         >
-          🚀 USDT Flash Deals
+          🚀 USDT Deals
         </motion.h2>
 
         <p className="text-gray-400 text-sm sm:text-base md:text-lg max-w-xl mx-auto mb-8">
