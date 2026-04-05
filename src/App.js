@@ -5,37 +5,39 @@ import { SiTether } from "react-icons/si";
 
 const plans = [
   {
-    name: "Starter Pack",
     price: "USDT",
     features: [
       "BEP20 Network",
       "Inr 86 per USDT",
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "Lifetime Validity",
     ],
   },
   {
-    name: "Pro Trader",
     price: "USDT",
-    popular: true,
     features: [
       "TRC20 Network",
       "Inr 86 per USDT",
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "Lifetime Validity",
     ],
   },
   {
-    name: "Elite Enterprise",
     price: "USDT",
     features: [
       "ERC20 Network",
       "Inr 86 per USDT",
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
-      "Lifetime Validity",
+    ],
+  },
+  {
+    price: "USDT",
+    features: [
+      "TRC20 Network",
+      "Inr 86 per USDT",
+      "Minimum quantity 100,000 USDT",
+      "Instant Transfer",
     ],
   },
 ];
@@ -210,19 +212,13 @@ function App() {
                 }`}
               >
                 <div className="bg-[#020617] p-5 md:p-6 rounded-2xl h-full flex flex-col justify-between">
-                  {plan.popular && (
-                    <span className="absolute top-3 right-3 bg-green-500 px-2 py-1 text-xs rounded">
-                      ⭐ Popular
-                    </span>
-                  )}
-
                   <div>
                     <h4 className="text-xl text-green-400 font-bold mb-2">
                       {plan.name}
                     </h4>
                     <p className="text-3xl font-bold mb-4">{plan.price}</p>
 
-                    <ul className="space-y-3 mb-6">
+                    <ul className="space-y-4 mb-6">
                       {plan.features.map((f, i) => {
                         const isImportant =
                           f.toLowerCase().includes("trust wallet") ||
@@ -231,7 +227,7 @@ function App() {
                         return (
                           <li
                             key={i}
-                            className={`flex items-start gap-3 text-sm md:text-base ${
+                            className={`flex items-start gap-3 text-m font-bold md:text-base ${
                               isImportant ? "text-yellow-300" : "text-gray-300"
                             }`}
                           >
@@ -269,7 +265,7 @@ function App() {
 
       {/* CTA */}
       <section className="text-center py-20 px-4">
-        <h3 className="text-2xl sm:text-3xl font-bold mb-6">
+        <h3 className="text-2xl sm:text-3xl font-bold mb-12">
           🚀 Ready to Boost Your Trading?
         </h3>
 
