@@ -34,7 +34,7 @@ const plans = [
   {
     price: "USDT",
     features: [
-      "TRC20 Network",
+      "SOL",
       "Inr 86 per USDT",
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
