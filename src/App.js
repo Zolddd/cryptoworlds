@@ -13,8 +13,6 @@ const plans = [
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
       "Lifetime Validity",
-      "use for only trust wallet",
-      "After payment send screenshot",
     ],
   },
   {
@@ -27,8 +25,6 @@ const plans = [
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
       "Lifetime Validity",
-      "use for only trust wallet",
-      "After payment send screenshot",
     ],
   },
   {
@@ -40,8 +36,6 @@ const plans = [
       "Minimum quantity 100,000 USDT",
       "Instant Transfer",
       "Lifetime Validity",
-      "use for only trust wallet",
-      "After payment send screenshot",
     ],
   },
 ];
